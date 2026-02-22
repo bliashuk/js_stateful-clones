@@ -8,7 +8,7 @@
  */
 function transformStateWithClones(state, actions) {
   const history = [];
-  let currentState = { ...state }; // перший клон
+  let currentState = { ...state };
 
   for (const action of actions) {
     let nextState;
